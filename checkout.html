@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - Infinity Time</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="checkout-page">
+
+    <header>
+        <h1>Infinity Time</h1>
+    </header>
+
+    <section class="checkout">
+        <h2>Checkout</h2>
+        <form action="orders.html" method="get"> 
+            <input type="text" placeholder="Full Name" required>
+            <input type="text" placeholder="Address" required>
+            <input type="text" placeholder="Card Details" required>
+            <!-- ✅ Fixed: Form now redirects to 'orders.html' after submission -->
+            <button type="submit" class="btn">Place Order</button>
+        </form>
+    </section>
+
+</body>
+</html>

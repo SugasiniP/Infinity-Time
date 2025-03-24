@@ -1,0 +1,84 @@
+/* Apply Background Image */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url('loginimg.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Stacks h1 above login box */
+    align-items: center;
+    justify-content: center;
+}
+
+/* H1 Styling (Title at the Top) */
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3px 3px 10px rgba(255, 215, 0, 0.7); /* Gold Glow Effect */
+    padding: 15px 40px;
+    background: linear-gradient(135deg, #2e3b4e, #556677); /* Stylish Blue Gradient */
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Login Container */
+.login {
+    background: rgba(240, 248, 255, 0.2); /* Mild Transparent Light Blue */
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 18px rgba(173, 216, 230, 0.5); /* Light Blue Glow */
+    width: 350px;
+    text-align: center;
+}
+
+/* Login Heading */
+h2 {
+    color: #5F9EA0; /* Mild Blue */
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* Input Fields */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(48, 57, 64, 0.3); /* Mild Light Blue */
+    color: white;
+    text-align: center;
+    outline: none;
+}
+
+/* Placeholder Styling */
+input::placeholder {
+    color: #ccc;
+}
+/* Login Button */
+.btn {
+    width: 100%;
+    background: #5F9EA0; 
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Hover Effect (Fixed) */
+.btn:hover {
+    background: #4682B4; 
+    color: black;  /* Optional: Change text color on hover */
+}
